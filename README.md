@@ -12,17 +12,17 @@
 
 ## Perintah Dasar PIP
 
-- `pip --version ->` menampilkan versi PIP yang terinstall.
+- `pip --version ->` **Menampilkan versi PIP yang terinstall.**
 
 ![gambar1](screenshot/ss6.png)
 
-- `pip install nama_package ->` menginstall package.
+- `pip install nama_package ->` **Menginstall package.**
 
 ![gambar2](screenshot/ss2.png)
 
-- `pip uninstall nama_package ->` menghapus package.
+- `pip uninstall nama_package ->` **Menghapus package.**
 
-- `pip list ->` untuk menampilkan daftar package yang terinstall.
+- `pip list ->` **Menampilkan daftar package yang terinstall.**
 
 ![gambar3](screenshot/ss3.png)
 
@@ -77,9 +77,9 @@ Selanjutnya, kodingan mencari semua elemen HTML dengan atribut 'table_highlight 
 Setelah itu, kodingan menggunakan library pandas untuk membuat dataframe dari list yang didapat dan menyimpannya dalam variabel 'df'. Kemudian kodingan mencetak dataframe tersebut, sehingga kita dapat melihat informasi seputar jadwal dan waktu sholat untuk wilayah Jakarta Pusat dari situs Web [Jadwal Sholat](https://www.jadwalsholat.org/).
 
 
-**Sekian Tugas Praktikum Saya di Pertemuan kali ini. Jika Masih Ada Yang Salah Saya Mohon Maaf.**
+### Sekian Tugas Praktikum Saya di Pertemuan kali ini. Jika Masih Ada Yang Salah Saya Mohon Maaf.
 
-**Sampai Ketemu lagi di Semester Berikutnya.**
+### Sampai Ketemu lagi di Semester Berikutnya.
 
 ## Wassalamualaikum wr.wb.
 
