@@ -8,8 +8,7 @@
 
 - PIP merupakan package manager untuk mengelola package dan modul pada python.
 - Dengan menggunakan PIP, kita dapat menggunakan library yang tersedia bebas dari direktory package library python.
-- Untuk dapat menggunakan PIP, perlu diinstall terlebih dahulu, silakan kunjungi tautan berikut untuk proses
-- [Klik](https://pypi.org/)
+- Untuk dapat menggunakan PIP, perlu diinstall terlebih dahulu, silakan kunjungi tautan berikut untuk proses instalasinya : [Klik di sini](https://pypi.org/)
 
 ## Perintah Dasar PIP
 
@@ -65,10 +64,11 @@
 ![gambar5](screenshot/ss5.png)
 
 
-- import pandas as pd digunakan untuk mengimport library pandas dan menyebutnya sebagai pd. Library pandas digunakan untuk memanipulasi data dalam bentuk tabel (dataframe) dan digunakan untuk data analysis.
+- [ import pandas as pd ] digunakan untuk mengimport library pandas dan menyebutnya sebagai pd. Library pandas digunakan untuk memanipulasi data dalam bentuk tabel (dataframe) dan digunakan untuk data analysis.
 
-- from bs4 import BeautifulSoup digunakan untuk mengimport class BeautifulSoup dari package BeautifulSoup4. Class BeautifulSoup digunakan untuk mengelola dan mengolah data dari HTML atau XML.
+- [ from bs4 import BeautifulSoup ] digunakan untuk mengimport class BeautifulSoup dari package BeautifulSoup4. Class BeautifulSoup digunakan untuk mengelola dan mengolah data dari HTML atau XML.
 
+# Penjelasan Tambahan
 
 Di sini saya mengambil contoh dengan mengambil data `Jadwal Sholat` dari situs Web [Jadwal Sholat 5 waktu](https://www.jadwalsholat.org/). Dengan menggunakan library Python 'requests', kodingan mengirim permintaan GET ke URL [Jadwal Sholat](https://jadwalsholat.org/jadwal-sholat/monthly.php) yang merupakan halaman web yang berisi informasi Jadwal waktu sholat. Kemudian, dengan menggunakan library 'BeautifulSoup', kodingan menganalisis konten halaman web yang didapat dari permintaan GET tersebut dengan menggunakan parser HTML.
 
@@ -76,11 +76,12 @@ Selanjutnya, kodingan mencari semua elemen HTML dengan atribut 'table_highlight 
 
 Setelah itu, kodingan menggunakan library pandas untuk membuat dataframe dari list yang didapat dan menyimpannya dalam variabel 'df'. Kemudian kodingan mencetak dataframe tersebut, sehingga kita dapat melihat informasi seputar jadwal dan waktu sholat untuk wilayah Jakarta Pusat dari situs Web [Jadwal Sholat](https://www.jadwalsholat.org/).
 
+
 **Sekian Tugas Praktikum Saya di Pertemuan kali ini. Jika Masih Ada Yang Salah Saya Mohon Maaf.**
 
 **Sampai Ketemu lagi di Semester Berikutnya.**
 
-**Wassalamualaikum wr.wb.**
+## Wassalamualaikum wr.wb.
 
 
 
