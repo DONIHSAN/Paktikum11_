@@ -9,7 +9,8 @@
 - PIP merupakan package manager untuk mengelola package dan modul pada python.
 - Dengan menggunakan PIP, kita dapat menggunakan library yang tersedia bebas dari direktory package library python.
 - Untuk dapat menggunakan PIP, perlu diinstall terlebih dahulu, silakan kunjungi tautan berikut untuk proses
- [Click Here](https://pypi.org/)
+
+[Click Here](https://pypi.org/)
 
 ## Perintah Dasar PIP
 
@@ -54,17 +55,21 @@
 
 ![gambar 4](screenshot/ss4.png)
 
-- `!pip install requests` digunakan untuk menginstall package requests di python. Package requests digunakan untuk melakukan HTTP request dari python.
+```
+**!pip install requests** digunakan untuk menginstall package requests di python. Package requests digunakan untuk melakukan HTTP request dari python.
 
-- `!pip install BeautifulSoup4` digunakan untuk menginstall package BeautifulSoup4 di python. Package BeautifulSoup4 digunakan untuk parsing dan mengelola data dari HTML atau XML.
+- !pip install BeautifulSoup4 digunakan untuk menginstall package BeautifulSoup4 di python. Package BeautifulSoup4 digunakan untuk parsing dan mengelola data dari HTML atau XML.
 
-- `!pip install pandas` digunakan untuk menginstall package pandas di python. Package pandas digunakan untuk memanipulasi data dalam bentuk tabel (dataframe) dan digunakan untuk data analysis. Fungsi dari package pandas sangat luas, seperti melakukan operasi pada data, mengimport dan mengeksport data dari berbagai format, dan lainnya.
+- !pip install pandas digunakan untuk menginstall package pandas di python. Package pandas digunakan untuk memanipulasi data dalam bentuk tabel (dataframe) dan digunakan untuk data analysis. Fungsi dari package pandas sangat luas, seperti melakukan operasi pada data, mengimport dan mengeksport data dari berbagai format, dan lainnya.
+```
 
 ![gambar5](screenshot/ss5.png)
 
-- `import pandas as pd` digunakan untuk mengimport library pandas dan menyebutnya sebagai pd. Library pandas digunakan untuk memanipulasi data dalam bentuk tabel (dataframe) dan digunakan untuk data analysis.
+```
+- import pandas as pd digunakan untuk mengimport library pandas dan menyebutnya sebagai pd. Library pandas digunakan untuk memanipulasi data dalam bentuk tabel (dataframe) dan digunakan untuk data analysis.
 
-- `from bs4 import BeautifulSoup` digunakan untuk mengimport class BeautifulSoup dari package BeautifulSoup4. Class BeautifulSoup digunakan untuk mengelola dan mengolah data dari HTML atau XML.
+- from bs4 import BeautifulSoup digunakan untuk mengimport class BeautifulSoup dari package BeautifulSoup4. Class BeautifulSoup digunakan untuk mengelola dan mengolah data dari HTML atau XML.
+```
 
 Di sini saya mengambil contoh dengan mengambil data `Jadwal Sholat` dari situs Web [Jadwal Sholat 5 waktu](https://www.jadwalsholat.org/). Dengan menggunakan library Python 'requests', kodingan mengirim permintaan GET ke URL [Jadwal Sholat](https://jadwalsholat.org/jadwal-sholat/monthly.php) yang merupakan halaman web yang berisi informasi Jadwal waktu sholat. Kemudian, dengan menggunakan library 'BeautifulSoup', kodingan menganalisis konten halaman web yang didapat dari permintaan GET tersebut dengan menggunakan parser HTML.
 
